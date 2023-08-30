@@ -37,7 +37,7 @@ class Home extends StatelessWidget {
             return ListTile(
               leading: ClipRRect(
                 borderRadius: BorderRadius.circular(5),
-                child: Image.asset('images/Transfer.png', height: 40),
+                child: Image.asset('Transfer.png', height: 10),
               ),
               title: Text('transfer',
                   style: TextStyle(
